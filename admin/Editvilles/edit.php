@@ -1,13 +1,15 @@
 <?php
 require '../db.php';
 
-$id = $_REQUEST["lign_update"];
+$id = $_GET["lign_update"];
 
 $id = intval($id);
 
-$sql = ("SELECT * FROM villes WHERE id=$id");
+$sql = $pdo->prepare("SELECT * FROM villes WHERE id = '$id'");
+$sql->execute();
+$villes = $sql->fetch();
 
-$result = array($sql);
+var_dump($villes['tel']);
 
 if(isset($_POST['btn-update'])){
     $nom_ville = $_POST['ville_name'];
@@ -17,8 +19,8 @@ if(isset($_POST['btn-update'])){
     $lon = $_POST['ville_lon'];
     $horaires = $_POST['horaires'];
 
-    $update = ("UPDATE villes SET ville_name='$nom_ville', ville_adress='$adress_ville', tel='$tel', ville_lat='$lat', ville_lon='$lon', horaires='$horaires'");
-    $update->execute([$nom_ville, $adress_ville, $tel, $lat, $lon, $horaires]);
+    $update = $pdo->prepare("UPDATE villes SET Villes='$nom_ville', adresse='$adress_ville', tel='$tel', lat='$lat', lon='$lon', horaires='$horaires' WHERE id = '$id'");
+    $update->execute();
 }
 ?>
 
@@ -36,25 +38,25 @@ if(isset($_POST['btn-update'])){
 <body>
 <div>
     <h3 style="margin-top: 100px">Ajouter une ville</h3>
-    <form action="" method="post" class="form-group">
+    <form method="POST" class="form-group">
 
-        <input type="text" name="ville_name" placeholder="Ville" class="form-control w-50 mt-2" value="<?= $result['ville_name']?>">
+        <input type="text" name="ville_name"  class="form-control w-50 mt-2" value="<?= $villes['Villes']?>">
 
-        <input type="text" name="ville_adress" placeholder="Adresse" class="form-control w-50 mt-2" value="<?= $result['Villes']?>">
+        <input type="text" name="ville_adress"  class="form-control w-50 mt-2" value="<?= $villes['adresse']?>">
 
-        <input type="text" name="tel" placeholder="N° de téléphone" class="form-control w-50 mt-2">
+        <input type="text" name="tel"  class="form-control w-50 mt-2" value="<?= $villes['tel']?>">
 
-        <input type="text" name="ville_lat" placeholder="lat" class="form-control w-50 mt-2">
+        <input type="text" name="ville_lat"  class="form-control w-50 mt-2" value="<?= $villes['lat']?>">
 
-        <input type="text" name="ville_lon" placeholder="lon" class="form-control w-50 mt-2">
+        <input type="text" name="ville_lon" class="form-control w-50 mt-2" value="<?= $villes['lon']?>">
 
-        <input type="text" name="horaires" placeholder="horaires" class="form-control w-50 mt-2">
+        <input type="text" name="horaires"  class="form-control w-50 mt-2" value="<?= $villes['horaires']?>">
 
-        <button type="submit" name="form_submit" class="btn btn-primary mt-2">Enregistrer</button>
+        <button type="submit" name="btn-update" class="btn btn-primary mt-2">Enregistrer</button>
 
         <a href="../gererlesvilles/edit_ville.php" class="btn btn-secondary" style="margin-top: 10px">Liste des villes</a>
 
-        <?php if (isset($insert)){
+        <?php if (isset($_POST['btn-update'])){
             echo '<div class="alert alert-success" role="alert">
             
   Enregistrer avec succés !
