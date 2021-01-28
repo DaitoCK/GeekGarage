@@ -6,7 +6,7 @@
 
     $id = intval($id);
 
-    $sql = $pdo->prepare('DELETE FROM `villes` WHERE id = $id');
+    $sql = $pdo->prepare("DELETE FROM `villes` WHERE id = $id");
     $sql->execute();
 
 header('Location: edit_ville.php');

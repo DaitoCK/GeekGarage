@@ -1,7 +1,15 @@
 <?php
 require '../db.php';
 
-if (isset($_POST['form_submit'])) {
+$id = $_REQUEST["lign_update"];
+
+$id = intval($id);
+
+$sql = ("SELECT * FROM villes WHERE id=$id");
+
+$result = array($sql);
+
+if(isset($_POST['btn-update'])){
     $nom_ville = $_POST['ville_name'];
     $adress_ville = $_POST['ville_adress'];
     $tel = $_POST['tel'];
@@ -9,13 +17,13 @@ if (isset($_POST['form_submit'])) {
     $lon = $_POST['ville_lon'];
     $horaires = $_POST['horaires'];
 
-    $insert = $pdo->prepare("INSERT INTO villes (Villes, adresse, tel, lat, lon, horaires) VALUES (?,?,?,?,?, ?)");
-    $insert->execute([$nom_ville, $adress_ville, $tel, $lat, $lon, $horaires]);
+    $update = ("UPDATE villes SET ville_name='$nom_ville', ville_adress='$adress_ville', tel='$tel', ville_lat='$lat', ville_lon='$lon', horaires='$horaires'");
+    $update->execute([$nom_ville, $adress_ville, $tel, $lat, $lon, $horaires]);
 }
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -30,17 +38,17 @@ if (isset($_POST['form_submit'])) {
     <h3 style="margin-top: 100px">Ajouter une ville</h3>
     <form action="" method="post" class="form-group">
 
-        <input type="text" name="ville_name" placeholder="Ville" class="form-control w-50 mt-2">
+        <input type="text" name="ville_name" placeholder="Ville" class="form-control w-50 mt-2" value="<?= $result['ville_name']?>">
 
-        <input type="text" name="ville_adress" placeholder="Adresse" class="form-control w-50 mt-2"">
+        <input type="text" name="ville_adress" placeholder="Adresse" class="form-control w-50 mt-2" value="<?= $result['Villes']?>">
 
         <input type="text" name="tel" placeholder="N° de téléphone" class="form-control w-50 mt-2">
 
-        <input type="text" name="ville_lat" placeholder="lat" class="form-control w-50 mt-2"">
+        <input type="text" name="ville_lat" placeholder="lat" class="form-control w-50 mt-2">
 
-        <input type="text" name="ville_lon" placeholder="lon" class="form-control w-50 mt-2"">
+        <input type="text" name="ville_lon" placeholder="lon" class="form-control w-50 mt-2">
 
-        <input type="text" name="horaires" placeholder="horaires" class="form-control w-50 mt-2"">
+        <input type="text" name="horaires" placeholder="horaires" class="form-control w-50 mt-2">
 
         <button type="submit" name="form_submit" class="btn btn-primary mt-2">Enregistrer</button>
 
