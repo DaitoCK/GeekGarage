@@ -1,5 +1,5 @@
 <?php
-    
+    require_once 'db.php';
     require 'util.php';
     init_php_session();
 

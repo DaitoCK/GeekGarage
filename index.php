@@ -54,7 +54,7 @@
             <li><a class="smoothscroll" href="#centres">Nos centres</a></li>
             <li><a class="smoothscroll" href="#services">Services</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
-             <li><a class="" href="admin/Auth.php">Se connecter</a></li>
+             <li><a class="" href="admin/index.php">Se connecter</a></li>
          </ul> <!-- end #nav -->
       </nav> <!-- end #nav-wrap -->
       <p class="scrolldown">
