@@ -60,30 +60,6 @@
 
 <!-- centres Section
 ================================================== -->
-
-
-<div class="contain_modal">
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
-                </div>
-                <div style="margin-left: 10px" class="modal-body">
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <section id="centres">
     <div class="row">
         <div class="nine columns main-col">
@@ -232,43 +208,8 @@
    </section> <!-- Services Section End-->
 
 
-   <!-- Call-To-Action Section
-   ================================================== -->
-
-<!-- Modal Section
+<!-- Call-To-Action Section
 ================================================== -->
-
-<div id="modal-07" class="popup-modal mfp-hide">
-
-    <img class="scale-with-grid" src="img/header2.jpg" alt=""/>
-
-    <div class="description-box">
-        <form class="w-100" method="post" action="back/mail.php">
-            <div class="form-group pt-3">
-                <input type="email" class="form-control" id="exampleInputEmail1"
-                       aria-describedby="emailHelp" placeholder="Adresse Email" name="email">
-            </div>
-            <div class="form-group pt-3">
-                <input type="text" class="form-control" id="exampleInputPassword1"
-                       placeholder="Nom, Prénom, Raison social" name="name">
-            </div>
-            <div class="form-group pt-3">
-                <input type="text" class="form-control" id="exampleInputPassword1"
-                       placeholder="Numéro de téléphone" name="tel">
-            </div>
-            <div class="input-group pt-3">
-                                    <textarea class="form-control" aria-label="With textarea"
-                                              placeholder="Explication de votre problème" name="prob"></textarea>
-            </div>
-        </form>
-    </div>
-
-    <div class="link-box">
-        <a class="popup-modal-dismiss">Close</a>
-    </div>
-
-</div>
-<!-- Modal Section End-->
 
    <!-- footer
    ================================================== -->
@@ -347,7 +288,8 @@ $villes_json = json_encode($villes);
                 [villes[ville].horaires] +
                 "<br>" +
                 [villes[ville].tel] + "<br>" +
-                "<button style='margin-top: 5px' type='button' class='btn btn-primary' data-toggle='modal' data-target='#exampleModal'>Contacter</button>");
+                "<button onclick=\"document.getElementById('contact_center').value = '"+ ville +"';\" type='button' " +
+                "class='btn btn-outline-danger' data-bs-toggle='modal' data-bs-target='#modal-contact'>Contacter</button>");
             marqueurs.addLayer(marqueur1);
         }
 
