@@ -44,8 +44,6 @@ if (isset($_POST['form_submit'])) {
 
         <button type="submit" name="form_submit" class="btn btn-primary mt-2">Enregistrer</button>
 
-        <a href="../gererlesvilles/edit_ville.php" class="btn btn-secondary" style="margin-top: 10px">Liste des villes</a>
-
         <?php if (isset($insert)){
             echo '<div class="alert alert-success" role="alert">
             

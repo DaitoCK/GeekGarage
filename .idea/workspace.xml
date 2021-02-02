@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24bed918-5b77-4085-9ad9-2a92c31f3e5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeekGarage.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7bbdd17-76bf-4bc6-acec-173625b63985.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7bbdd17-76bf-4bc6-acec-173625b63985/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/Editvilles/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Editvilles/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/Editvilles/edit_ville.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Editvilles/edit_ville.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/insertVilles/insert_ville.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insertVilles/insert_ville.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/magnific-popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modale.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modale.js" afterDir="false" />
     </list>
+    <list id="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" name="Changes by acs" comment="">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <list id="66cf7e55-abfb-4790-9db4-ef25bbd0164d" name="Changes by FyRoX" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +28,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/DaitoCK/GeekGarage" />
+      </set>
+    </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/index.php">
+      <ranges>
+        <range start1="0" end1="4" start2="0" end2="0" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="8" end1="14" start2="4" end2="10" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="15" end1="18" start2="11" end2="14" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="19" end1="20" start2="15" end2="16" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="22" end1="24" start2="18" end2="20" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="26" end1="27" start2="22" end2="23" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="33" end1="36" start2="29" end2="32" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="37" end1="40" start2="33" end2="36" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="44" end1="47" start2="40" end2="43" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="48" end1="52" start2="44" end2="48" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="56" end1="63" start2="52" end2="59" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="64" end1="69" start2="60" end2="89" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="70" end1="74" start2="90" end2="94" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="75" end1="78" start2="95" end2="98" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="79" end1="80" start2="99" end2="100" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="81" end1="82" start2="101" end2="102" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="88" end1="101" start2="108" end2="120" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="102" end1="104" start2="121" end2="123" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="105" end1="115" start2="124" end2="134" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="116" end1="118" start2="135" end2="137" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="119" end1="129" start2="138" end2="148" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="130" end1="132" start2="149" end2="151" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="133" end1="143" start2="152" end2="162" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="146" end1="147" start2="165" end2="166" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="149" end1="151" start2="168" end2="170" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="152" end1="153" start2="171" end2="172" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="154" end1="155" start2="173" end2="174" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="156" end1="160" start2="175" end2="180" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="162" end1="163" start2="182" end2="183" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="165" end1="166" start2="185" end2="186" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="167" end1="168" start2="187" end2="188" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="169" end1="170" start2="189" end2="190" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="171" end1="175" start2="191" end2="196" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="177" end1="178" start2="198" end2="199" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="180" end1="181" start2="201" end2="202" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="182" end1="183" start2="203" end2="204" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="184" end1="185" start2="205" end2="206" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="186" end1="190" start2="207" end2="212" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="192" end1="193" start2="214" end2="215" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="195" end1="196" start2="217" end2="218" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="197" end1="198" start2="219" end2="220" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="199" end1="200" start2="221" end2="222" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="201" end1="205" start2="223" end2="228" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="207" end1="208" start2="230" end2="231" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="210" end1="213" start2="233" end2="236" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="215" end1="217" start2="238" end2="240" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="218" end1="221" start2="241" end2="245" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="222" end1="259" start2="246" end2="275" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="260" end1="263" start2="276" end2="279" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="264" end1="265" start2="280" end2="281" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="266" end1="267" start2="282" end2="283" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="268" end1="270" start2="284" end2="286" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="272" end1="273" start2="288" end2="289" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="274" end1="275" start2="290" end2="291" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="276" end1="277" start2="292" end2="293" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="278" end1="279" start2="294" end2="295" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="280" end1="284" start2="296" end2="335" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="285" end1="286" start2="336" end2="370" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+        <range start1="288" end1="298" start2="372" end2="382" changelist="a27d0ea4-6c91-48fe-8fa8-9d991b0f2385" />
+        <range start1="300" end1="303" start2="384" end2="393" changelist="24bed918-5b77-4085-9ad9-2a92c31f3e5c" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="1ni7P7Q3h7Xn3W4PG9VeLpw4zRV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +110,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,10 +125,28 @@
       <option name="presentableId" value="Default" />
       <updated>1611861031412</updated>
       <workItem from="1611861032819" duration="1479000" />
+      <workItem from="1611863000098" duration="1549000" />
+      <workItem from="1612050700251" duration="986000" />
+      <workItem from="1612168357357" duration="2271000" />
+      <workItem from="1612170660280" duration="10061000" />
+      <workItem from="1612257108270" duration="5072000" />
+      <workItem from="1612262568671" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

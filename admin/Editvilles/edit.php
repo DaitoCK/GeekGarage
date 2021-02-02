@@ -9,7 +9,6 @@ $sql = $pdo->prepare("SELECT * FROM villes WHERE id = '$id'");
 $sql->execute();
 $villes = $sql->fetch();
 
-var_dump($villes['tel']);
 
 if(isset($_POST['btn-update'])){
     $nom_ville = $_POST['ville_name'];

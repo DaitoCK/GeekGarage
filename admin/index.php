@@ -33,7 +33,7 @@
 
     <!-- Favicons
      ================================================== -->
-    <link rel="shortcut icon" href="img/" >
+    <link rel="shortcut icon" href="img/logoGG.png" >
 </head>
 <body>
 
@@ -42,8 +42,7 @@
         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Navigation</a>
         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
         <ul id="nav" class="nav">
-            <li><a href="Editvilles/edit_ville.php">Editer</a></li>
-            <li><a href="insertVilles/insert_ville.php">Ajouter</a></li>
+            <li><a href="Editvilles/edit_ville.php">Gérer les centres</a></li>
         </ul> <!-- end #nav -->
     </nav> <!-- end #nav-wrap -->
 </header> <!-- Header End -->
