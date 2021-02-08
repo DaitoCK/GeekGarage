@@ -7,10 +7,10 @@ if (isset($_POST['form_submit'])) {
     $tel = $_POST['tel'];
     $lat = $_POST['ville_lat'];
     $lon = $_POST['ville_lon'];
-    $horaires = $_POST['horaires'];
+    $horaire = $_POST['horaire'];
 
-    $insert = $pdo->prepare("INSERT INTO villes (Villes, adresse, tel, lat, lon, horaires) VALUES (?,?,?,?,?, ?)");
-    $insert->execute([$nom_ville, $adress_ville, $tel, $lat, $lon, $horaires]);
+    $insert = $pdo->prepare("INSERT INTO villes (Villes, adresse, tel, lat, lon, horaire) VALUES (?,?,?,?,?, ?)");
+    $insert->execute([$nom_ville, $adress_ville, $tel, $lat, $lon, $horaire]);
 }
 ?>
 
@@ -40,7 +40,7 @@ if (isset($_POST['form_submit'])) {
 
         <input type="text" name="ville_lon" placeholder="lon" class="form-control w-50 mt-2"">
 
-        <input type="text" name="horaires" placeholder="horaires" class="form-control w-50 mt-2"">
+        <input type="text" name="horaire" placeholder="horaire" class="form-control w-50 mt-2"">
 
         <button type="submit" name="form_submit" class="btn btn-primary mt-2">Enregistrer</button>
 

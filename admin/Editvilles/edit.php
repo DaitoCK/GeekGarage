@@ -49,7 +49,7 @@ if(isset($_POST['btn-update'])){
 
         <input type="text" name="ville_lon" class="form-control w-50 mt-2" value="<?= $villes['lon']?>">
 
-        <input type="text" name="horaires"  class="form-control w-50 mt-2" value="<?= $villes['horaires']?>">
+        <input type="text" name="horaire"  class="form-control w-50 mt-2" value="<?= $villes['horaire']?>">
 
         <button type="submit" name="btn-update" class="btn btn-primary mt-2">Enregistrer</button>
 

@@ -1,28 +1,15 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. centres Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body {
+    background: url("") no-repeat;
+    background-size: cover;
+}
+
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -75,7 +62,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #b01111; }
+header .scrolldown a:hover { color: #3d0000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -88,7 +75,7 @@ header .scrolldown a:hover { color: #b01111; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'Vintage', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -98,7 +85,7 @@ header .scrolldown a:hover { color: #b01111; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: rgba(0, 0, 0, 0.5); }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -123,11 +110,12 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
+   padding: 8px 48px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
+    font-size: 21px;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -137,33 +125,44 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #ac1b1b; }
+ul#nav li.current a { color: #610000; }
 
 
 /* ------------------------------------------------------------------ */
 /* c. centres Section
 /* ------------------------------------------------------------------ */
 #macarte {
-   height: 600px;
-   width: 600px;
+   height: 500px;
+   width: 900px;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.z-index-0{
+    z-index: 0;
 }
 
 
 #centres {
-   background: #2B2B2B;
    padding-top: 96px;
-   padding-bottom: 66px;
+   padding-bottom: 220px;
    overflow: hidden;
+    background-color: #121212;
 }
 
-#centres a, #centres a:visited  { color: rgb(0, 0, 0); }
-#centres a:hover, #centres a:focus { color: #b01111; }
+#centres a, #centres a:visited  { color: rgb(255, 255, 255); }
+#centres a:hover, #centres a:focus { color: #000000; }
 
 #centres h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 48px;
    margin-left: 277px;
+    font-family: 'Vintage';
 }
 #centres p {
    line-height: 30px;
@@ -249,12 +248,13 @@ ul#nav li.current a { color: #ac1b1b; }
 /* ------------------------------------------------------------------ */
 
 #services {
-   background: #2b2b2b;
-   padding-top: 90px;
-   padding-bottom: 60px;
-   display: flex;
-   
+    padding-top: 200px;
+    padding-bottom: 60px;
+    display: flex;
+    background-color: #121212;
+
 }
+
 #services h1 {
    font: 22px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
@@ -262,6 +262,7 @@ ul#nav li.current a { color: #ac1b1b; }
    text-align: center;
    margin-bottom: 48px;
    color: #fafafa;
+    font-family: 'Vintage';
 }
 
 /* Services Content */
@@ -361,7 +362,7 @@ ul#nav li.current a { color: #ac1b1b; }
 }
 .popup-modal .link-box {
    padding: 18px 36px;
-   background: #111;
+   background: #d9d9d9;
    text-align: left;
 }
 .popup-modal .link-box a {
@@ -371,7 +372,7 @@ ul#nav li.current a { color: #ac1b1b; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #cf1608; }
+.popup-modal a:hover {	color: red; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -396,62 +397,6 @@ ul#nav li.current a { color: #ac1b1b; }
    opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-   background: #212121;
-   padding-top: 66px;
-   padding-bottom: 48px;
-}
-#call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0ac";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-#call-to-action .action {
-   margin-top: 12px;
-}
-#call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#call-to-action h2 a {
-   color: inherit;
-}
-#call-to-action p {
-   color: #636363;
-   font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
-}
-#call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
-	color: #D8D8D8;
-}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -543,11 +488,15 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
-   padding-top: 96px;
+   background: #121212;
+   padding-top: 80px;
    color: #636363;
+    margin-top: -18px;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head {
+    margin-bottom: 42px;
+    margin-top: 60px;
+}
 
 #contact a, #contact a:visited  { color: #bb1f14; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -570,16 +519,14 @@ call-to-action .button {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#contact .header-col { padding-top: px; }
 
 
 /* contact form */
 
-.form {
-   margin-left: 29%;
-}
 
-#contact form { margin-bottom: 30px; }
+
+#contact form { margin-bottom: 30px; margin-left: 30% }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
@@ -620,16 +567,16 @@ call-to-action .button {
 	border-radius: 3px;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color: #7a1e1e;
+	background: #0f0f0f;
 }
 #contact span.required {
-	color: #b01111;
+	color: rgba(176, 17, 17, 0.23);
 	font-size: 13px;
 }
 #message-warning, #message-success {
    display: none;
-	background: #0F0F0F;
+	background: #0f0f0f;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
@@ -674,20 +621,20 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   padding-top: 10px;
+   color: #ffffff;
    font-size: 14px;
    text-align: center;
    position: relative;
+    background-color: #121212;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #5b5a5a; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
-    margin: 0;
+    margin: 30px;
     padding: 0;
  }
 footer .copyright li {
@@ -716,7 +663,7 @@ footer .copyright  li:first-child:before {
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #eeeeee;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -724,10 +671,10 @@ footer .copyright  li:first-child:before {
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #000000;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #950f0f; }
+#go-top a:hover { background-color: #3d0000; }
 

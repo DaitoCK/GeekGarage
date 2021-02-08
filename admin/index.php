@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+
+session_start();
+
+if (isset($_SESSION['auth'])) {
+
+?>
+    <!DOCTYPE html>
 <html class="no-js" lang="FR-fr">
 <head>
 
@@ -32,27 +39,32 @@
     <script src="js/modernizr.js"></script>
 
     <!-- Favicons
-     ================================================== -->
+    ================================================== -->
     <link rel="shortcut icon" href="img/logoGG.png" >
 </head>
 <body>
 
 <header id="home">
+
     <nav id="nav-wrap">
         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Navigation</a>
         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
         <ul id="nav" class="nav">
             <li><a href="Editvilles/edit_ville.php">Gérer les centres</a></li>
+            <li><a class="" href="disconnect.php">Se Déconnecter</a></li>
+
         </ul> <!-- end #nav -->
     </nav> <!-- end #nav-wrap -->
-</header> <!-- Header End -->
+    </header> <!-- Header End -->
 
-<SCRIPT LANGUAGE="javascript">
-    code = prompt('Entrez le mot de passe. Vous avez 1 seul essais... Attention, respecter les majuscules et les minuscules','Entrer le mot de passe ici');
-    if (code != "04121997")//Remplacer votremotdepasse par le mot de passe que vous allez choisir...
-    {
-        location.href="../index.php";//ici c'est la page où est redirigé le visiteur qui entre le mauvais mot de passe
-    }
-</SCRIPT>
 </body>
 </html>
+<?php
+
+}
+
+else {
+    header('Location: login.php');
+}
+
+?>
