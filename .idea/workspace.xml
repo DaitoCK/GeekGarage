@@ -2,86 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24bed918-5b77-4085-9ad9-2a92c31f3e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/Vintage/Vintage.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeekGarage-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekGarage-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Editvilles/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Editvilles/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Editvilles/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Editvilles/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Editvilles/edit_ville.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Editvilles/edit_ville.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/insertVilles/insert_ville.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insertVilles/insert_ville.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/spinning.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/spinning.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/animation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-codes.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/fontello-codes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-embedded.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/fontello-embedded.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7-codes.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/fontello-ie7-codes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/fontello-ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/css/fontello.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/font/fontello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontello/font/fontello.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-1.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.fittext.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.fittext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/magnific-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modale.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/waypoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/waypoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/disconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/rdv/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/rdv/insert_rdv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/rdv/rdv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2396.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/background.jpg" afterDir="false" />
     </list>
     <list id="29d45da5-3311-48e7-a4fc-6d1d26413d5f" name="Changes by acs" comment="" />
     <list id="66cf7e55-abfb-4790-9db4-ef25bbd0164d" name="Changes by FyRoX" comment="" />
@@ -169,7 +96,7 @@
       <workItem from="1612426831922" duration="10751000" />
       <workItem from="1612443153717" duration="10656000" />
       <workItem from="1612719447822" duration="227000" />
-      <workItem from="1612719682787" duration="13196000" />
+      <workItem from="1612719682787" duration="13574000" />
     </task>
     <task id="LOCAL-00001" summary="marker bdd">
       <created>1612271629396</created>
@@ -185,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612272805057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CSS detail">
+      <created>1612742712207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612742712207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="marker bdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="marker bdd" />
+    <MESSAGE value="CSS detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS detail" />
   </component>
 </project>
