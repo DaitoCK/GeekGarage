@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24bed918-5b77-4085-9ad9-2a92c31f3e5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/disconnect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/rdv/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/rdv/insert_rdv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/rdv/rdv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2396.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/db.php" afterDir="false" />
     </list>
     <list id="29d45da5-3311-48e7-a4fc-6d1d26413d5f" name="Changes by acs" comment="" />
     <list id="66cf7e55-abfb-4790-9db4-ef25bbd0164d" name="Changes by FyRoX" comment="" />
@@ -96,7 +91,8 @@
       <workItem from="1612426831922" duration="10751000" />
       <workItem from="1612443153717" duration="10656000" />
       <workItem from="1612719447822" duration="227000" />
-      <workItem from="1612719682787" duration="13574000" />
+      <workItem from="1612719682787" duration="13674000" />
+      <workItem from="1612778000390" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="marker bdd">
       <created>1612271629396</created>
